@@ -43,7 +43,7 @@ def extractKeyInformation(s3_client, local_metadata_filename, destination_direct
 			keyInformation['edge_media_to_comment'] = entry['edge_media_to_comment']
 			keyInformation['tags'] = entry['tags']
 			keyInformation['comments'] = entry['comments']
-			keyInformation['location'] = keyInformation['location']
+			keyInformation['location'] = entry['location']
 
 			s3_destination_directory = '{}/{}'.format(destination_directory, entryID)
 			response = requests.get(displayURL)
