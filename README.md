@@ -6,7 +6,7 @@ Please view and respect the license file attached. Credits to [*rarcega*](https:
 ---
 
 ## Project Overview
-Building upon the fantastic work by [*rarcega*](https://github.com/rarcega/instagram-scraper), this repository allows users to start scraping instagram data *immediately*, with the scraped data being organized neatly in Amazon S3 ready to be analyzed. Each _post_ by the target instagram user is stored conveniently in its own folder; and this folder will contain the image as well as the post's associated metadata.
+Building upon the fantastic work by [*rarcega*](https://github.com/rarcega/instagram-scraper), this repository allows users to start scraping instagram data *immediately*, with the scraped data being organized neatly in Amazon S3 ready to be analyzed. Each _post_ by the target instagram user is stored conveniently in its own folder. Each folder contains the image as well as the post's associated metadata.
 
 The directory structure on Amazon S3 is as such:
 ```
@@ -28,7 +28,7 @@ S3_BUCKET_NAME/
 #### 1) Clone this Repository
 `git clone https://github.com/Jordan396/S3-Compatible-Instagram-Scraper.git`
 
-`cd S3-Compatible-Instagram-Scraper`
+`cd S3-Compatible-Instagram-Scraper/`
 
 #### 2) Activate your Virtual Environment
 `source venv/bin/activate`
