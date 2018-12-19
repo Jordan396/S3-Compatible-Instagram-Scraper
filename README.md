@@ -1,7 +1,7 @@
 # S3-Compatible-Instagram-Scraper
 **DISCLAIMER**
 
-Please view and respect the license file attached. Credits to [*rarcega*](https://github.com/rarcega/instagram-scraper) for which this repository was built upon.
+Please view and respect the license file attached. Credits to [*rarcega*](https://github.com/rarcega/instagram-scraper) for the original instagram scraper.
 
 ---
 
