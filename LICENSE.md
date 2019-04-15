@@ -1,4 +1,6 @@
-## License extended from original instagram-scraper repository
+## LICENSE 
+
+This license was extended from rarcega's original instagram scraper repository.
 
 https://github.com/rarcega/instagram-scraper
 

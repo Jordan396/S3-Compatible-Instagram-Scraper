@@ -140,6 +140,9 @@ class InstagramScraper(object):
 
     def _retry_prompt(self, url, exception_message):
         """Show prompt and return True: retry, False: ignore, None: abort"""
+        self.logger.info( 'The user has chosen to ignore {0}'.format(url) )
+        return False
+        """
         answer = input( 'Repeated error {0}\n(A)bort, (I)gnore, (R)etry or retry (F)orever?'.format(exception_message) )
         if answer:
             answer = answer[0].upper()
@@ -156,6 +159,7 @@ class InstagramScraper(object):
             else:
                 self.logger.info( 'The user has chosen to abort' )
                 return None
+            """
 
     def safe_get(self, *args, **kwargs):
         # out of the box solution
