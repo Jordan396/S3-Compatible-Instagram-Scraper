@@ -25,6 +25,8 @@ S3_BUCKET_NAME/
 - Each _post_ by the target instagram user is stored in its own folder. 
 - Each folder contains the image as well as the post's associated metadata.
 
+---
+
 ## Getting Started
 
 ### Prerequisites
@@ -50,7 +52,7 @@ Now, follow these instructions to get the variables above.
 
 **NOTE**: Your userId and password are required to scrape data from *private* users followed by you.
 
-## Installation
+### Installation
 1. Clone this repository.
    ```
    git clone https://github.com/Jordan396/S3-Compatible-Instagram-Scraper.git
